@@ -22,6 +22,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PashaHackaton6"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+rootProject.name = "PashaHackathon"
 include(":app")
- 
+include(":ui-kit")
